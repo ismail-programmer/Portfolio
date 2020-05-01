@@ -19,9 +19,9 @@ const Home = () => {
         <Carousel />
         <Element name="testimonials">
           <Testimonials />
-        </Element>
         <Element name="experiance">
           <Experiance />
+        </Element>
         </Element>
         <Element name="projects">
           <Projects />

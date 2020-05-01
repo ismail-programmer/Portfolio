@@ -34,10 +34,7 @@ const SideDrawer = (props) => {
             <span style={innerStyle}></span>
             Contact
           </ListItem>
-          <ListItem style={outerStyle} button onClick={()=> {scrollToElement('location')}}>
-            <span style={innerStyle}></span>
-            Location
-          </ListItem>
+         
         </List>
       </Drawer>
     </div>

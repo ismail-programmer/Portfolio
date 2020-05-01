@@ -5,6 +5,8 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
+// import FiverrIcon from "../../resources/images/icons/fiverr.png";
+
 const Contact = () => {
   return (
     <div
@@ -19,6 +21,15 @@ const Contact = () => {
         <h1 className="center white-text">Contact Me</h1>
       </div>
       <div className="row">
+        {/* <div className="col s2 center">
+          <a
+            href="https://github.com/ismailmuhammed"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiverrIcon style={{ fontSize: `4rem`, color: `white` }} />
+          </a>
+        </div> */}
         <div className="col s2 center">
           <a
             href="https://github.com/ismailmuhammed"
