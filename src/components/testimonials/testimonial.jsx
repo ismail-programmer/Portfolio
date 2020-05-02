@@ -12,10 +12,9 @@ const Testimonial = (props) => {
           <h3 className="heading-tertiary u-margin-bottom-small">
             {props.name}
             <a
-              href="https://www.fiverr.com/ismail_muhammad?public_mode=true"
+              href="https://www.fiverr.com/ismail_muhammad"
               className="right fiverr"
-            >
-              <img src={img} alt="fiverr" />
+            >  <img src={img} alt="fiverr" />
             </a>
           </h3>
           <p>{props.children}</p>

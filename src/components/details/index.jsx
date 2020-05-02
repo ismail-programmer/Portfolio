@@ -76,8 +76,8 @@ class Highlights extends Component {
                         <a target="_blank" rel="noopener noreferrer" href={projects[index].link}>
                           Visit&nbsp;Site&nbsp;
                           <span className="shift">›</span>
-                        </a>
                         <div className="mask"></div>
+                        </a>
                       </div>
                     </div>
                   </div>

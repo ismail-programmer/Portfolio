@@ -3,9 +3,8 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import EmailIcon from "@material-ui/icons/Email";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
-// import FiverrIcon from "../../resources/images/icons/fiverr.png";
+import img from "../../resources/images/icons/fiverr.png";
 
 const Contact = () => {
   return (
@@ -21,15 +20,15 @@ const Contact = () => {
         <h1 className="center white-text">Contact Me</h1>
       </div>
       <div className="row">
-        {/* <div className="col s2 center">
+        <div className="col s2 center">
           <a
-            href="https://github.com/ismailmuhammed"
+            href="https://www.fiverr.com/ismail_muhammad"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FiverrIcon style={{ fontSize: `4rem`, color: `white` }} />
+            <img src={img} alt="fiverr" width="58" />
           </a>
-        </div> */}
+        </div>
         <div className="col s2 center">
           <a
             href="https://github.com/ismailmuhammed"
@@ -60,15 +59,6 @@ const Contact = () => {
         <div className="col s2 center">
           <a href="mailto:lord28062000@gmail.com">
             <EmailIcon style={{ fontSize: `4rem`, color: `white` }} />
-          </a>
-        </div>
-        <div className="col s2 center">
-          <a
-            href="https://www.linkedin.com/in/muhammad-ismail-468008168/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <LinkedInIcon style={{ fontSize: `4rem`, color: `#0e76a8` }} />
           </a>
         </div>
         <div className="col s2 center">

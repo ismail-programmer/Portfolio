@@ -12,7 +12,7 @@ class Card extends Component {
         this.setState({[`${type}Start`]: this.state[`${type}Start`]+1})
         document.querySelector(`.${type}Exp.experiance`).classList.remove("transparent-text");
       }
-    }, 5)
+    }, 2)
   };
   display = ()=>{
     const { type } = this.props
@@ -56,7 +56,7 @@ class Card extends Component {
         </h4>
         <div className="bar">
           <div className="emptybar"></div>
-          <div className={`${type}Bar filledbar`}></div>
+          <div style={{["--percentage"]: this.props.percentage}} className={`${type}Bar filledbar`}></div>
         </div>
         <div className="circle">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">

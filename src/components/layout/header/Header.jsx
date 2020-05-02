@@ -11,31 +11,6 @@ class Header extends Component {
     headerShow: false
   };
 
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  }
-
-  handleScroll = () => {
-    if (window.scrollY > 30) {
-      this.setState({
-        headerShow: true
-      });
-      this.refs.header.classList.add("transparent");
-    }else {
-      this.refs.header.classList.remove("transparent");
-      this.setState({
-        headerShow: false
-      });
-    }
-    if (window.scrollY > 6400) {
-      this.refs.header.classList.remove("transparent");
-      // alert("Removed");
-      this.setState({
-        headerShow: false
-      });
-    }
-  };
-
   toggleDrawer = val => {
     this.setState({
       drawerOpen: val

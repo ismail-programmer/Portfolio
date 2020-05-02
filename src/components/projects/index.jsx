@@ -45,13 +45,13 @@ class Projects extends Component {
                           <div className="card__content">
                             <h1 className="card__title">{el.name}</h1>
                             <div>
-                              <div className="button">
-                                <Link to={`/projects/${title}`}>
+                              <Link to={`/projects/${title}`}>
+                                <div className="button">
                                   View&nbsp;More&nbsp;
                                   <span className="shift">›</span>
-                                </Link>
-                                <div className="mask"></div>
-                              </div>
+                                  <div className="mask"></div>
+                                </div>
+                              </Link>
                             </div>
                           </div>
                         </div>
