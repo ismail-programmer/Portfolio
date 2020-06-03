@@ -8,12 +8,9 @@ const About = () => {
         </div>
         <div className="col l6 m10 s12 center about">
           <p>
-            Hey!,Are you looking for a Google firebase developer,Web developer
-            or React developer? I am working here to make your development
-            faster,easier and efficent. Available 24/7 contact us to discuss
-            details. I have three years of experience.
+          Hey! Are you looking for a Google Firebase Developer, Web developer or React developer? I have three years of experience and working to make your development faster, easier and efficient. Available 24/7 get in touch to discuss details.
           </p>
-          <p>Available at lord28062000@gmail.com</p>
+          <p>Contact me at lord28062000@gmail.com</p>
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ class Card extends Component {
         this.setState({[`${type}Start`]: this.state[`${type}Start`]+1})
         document.querySelector(`.${type}Exp.experiance`).classList.remove("transparent-text");
       }
-    }, 2)
+    }, 1)
   };
   display = ()=>{
     const { type } = this.props
@@ -20,7 +20,7 @@ class Card extends Component {
     document.querySelector(`.${type}Exp.experiance`).classList.remove("transparent-text");
   }
   componentDidMount(){
-    const {type } = this.props
+    const { type } = this.props
     if(window.innerWidth <= 1000){
       this.setState({[`${type}Start`]: this.state[`${type}End`]})
     } else if(window.innerWidth > 1000){
